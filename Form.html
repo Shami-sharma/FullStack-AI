@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Your first HTML form
+    </h1>
+    <form>
+        <input type="text">
+
+        <br>
+
+        <input type="password">
+
+        <br>
+
+        <br>
+        <input type="email">
+
+        <br>
+
+        <input type="submit">
+        <fieldset>
+            <legend>What is your gender?</legend>
+            <label for="MALE">MALE</label>
+            <input name ="GENDER" value="MALE" type="radio"/>
+            <label for = "FEMALE">FEMALE</label>
+            <input name="GENDER" value="FEMALE" type="radio"/>
+        </fieldset>
+        <input list ="colors"/>
+        <datalist id="colors">
+            <option value="RED"></option>
+            <option value="yellow"></option>
+            <option value="orange"></option>
+            <option value="Blue"></option>
+        </datalist>
+        <input type="time" list="timing">
+        <datalist id ="timing">
+            <option value="12:00"></option>
+            <option value="13:00"></option>
+        </datalist>
+
+        <select>
+            <option value="Lucknow">Lucknow</option>
+            <option value="patna">patna</option>
+            <option value="Delhi">Delhi</option>
+            <option value="goa">goa</option>
+            <option value="jaipur">jaipur</option>
+        </select>
+        <textarea rows="10" cols="50" autofocus maxlength="1" required></textarea>
+        <button type="buttom" placeholder="password">submit</button>
+    </form>
+</body>
+</html>
