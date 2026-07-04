@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+   
+}
+#logo{
+    height: 70%;
+    margin: 10px;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text{
+   color: blue;
+   margin: 10px;
+   display: flex;
+}
+
+#fakeHeader{
+    height: 10%;
+    width: 100%;
+
+}
+
+#Page1{
+    height: 90%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#Page2{
+    height: 90%;
+    width: 100%;
+    background-color: orange;
+}
