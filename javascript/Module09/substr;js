@@ -1,0 +1,11 @@
+let str = "Hello world";
+
+let str = "javascrit";
+
+let newstr = str.substr(0,7);
+
+let newstr1 = str1.substr(2);
+
+console.log(newstr);
+
+console.log(newstr1)
