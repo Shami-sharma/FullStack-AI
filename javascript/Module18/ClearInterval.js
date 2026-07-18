@@ -7,4 +7,4 @@ let  id = setInterval(()=>{
         clearInterval(id);
     }
     count++;
-},1000);
+},1000); 
