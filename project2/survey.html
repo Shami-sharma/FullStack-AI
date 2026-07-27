@@ -6,7 +6,7 @@
     <title>code_shami</title>
 </head>
 <body>
-    <>
+    <form>
         <h1>survey </h1>
         <div>
             <input type="text" placeholder="first Name">
@@ -25,18 +25,17 @@
         <div>
             <fieldset>
                 <legend>What is your gender?</legend>
-                <label for="MALE">MALE</label>
-                <input type="radio" name="GENDER">
-                <label for="FEMALE">FEMALE</label>
-                <input type="radio" name="GENDER">
+                <input type="radio" id="male" name="GENDER">
+                <label for="male">MALE</label>
+                <input type="radio" id="female" name="GENDER">
+                <label for="female">FEMALE</label>
             </fieldset>
         </div>
         <br/>
-        <textarea>
-            <textarea minlength="100" placeholder="comments"/></textarea>
-            <br/>
-           <input type="submit " value="SUBMIT"/> 
-        </div>
-    </form> 
+        <label for="comments">Comments</label><br />
+        <textarea id="comments" name="comments" minlength="100" placeholder="Enter your comments here"></textarea>
+        <br/>
+        <input type="submit" value="SUBMIT" title="Submit survey form" />
+    </form>
 </body>
 </html>
